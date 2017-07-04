@@ -1,0 +1,17 @@
+<md-grid-list cols="4" rowHeight="1:1">
+ <md-grid-tile colspan="4" rowspan="1" id="circleroot">
+   <h1>{{myinbox}} inbox</h1>
+<button md-raised-button (click)=openDialog() >Edit Circle</button>
+<button md-raised-button (click)=deleteCircle()>Delete Circle</button>
+ </md-grid-tile>
+  <md-grid-tile colspan="2" rowspan="2" id="mailbox">
+      <p>hello this is mailbbox</p>
+ </md-grid-tile>
+ <md-grid-tile colspan="2" rowspan="2" id="post">
+     <p>hello this is post</p>
+ </md-grid-tile>
+<!-- <md-grid-tile colspan="4" id="post">
+   <post></post>
+ </md-grid-tile> -->
+</md-grid-list>
+<post></post>

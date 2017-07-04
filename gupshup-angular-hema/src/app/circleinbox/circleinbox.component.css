@@ -1,0 +1,24 @@
+h2{
+	
+	text-transform: uppercase;
+	
+}
+button
+{
+	display: inline;
+	margin-left: 30px;
+	padding-left: 10px;
+	font-size:15px;
+	margin-bottom: 20px;
+	border-radius: 12px;
+}
+
+#mailbox{
+	background-color: green;
+}
+#post{
+	background-color: red;
+}
+p{
+	background-color: orange;
+}
