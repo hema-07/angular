@@ -12,9 +12,12 @@ button
 	margin-bottom: 20px;
 	border-radius: 12px;
 }
-
-#mailbox{
-	background-color: green;
+#circleroot{
+	position: fixed;
+	/*background-color: #e5fffb;*/
+}
+#mail{
+	/*background-color: green;*/
 }
 #post{
 	background-color: red;

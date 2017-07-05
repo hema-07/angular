@@ -38,10 +38,11 @@ constructor(
     		 this.circleservice.getCircleinbox(param['circle'])
     	).subscribe((Circleinbox) => {
     			this.myinbox = Circleinbox;
-    		 this.circleservice.getcircleKeywords(this.myinbox).subscribe((keywords)=>this.keywords=keywords);
+    		 
+    	});
+      this.circleservice.getcircleKeywords(this.myinbox).subscribe((keywords)=>this.keywords=keywords);
          this.circleservice.getcircleDescription(this.myinbox).subscribe((description)=>this.description=description);
          
-    	});
 
  }
 

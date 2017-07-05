@@ -9,7 +9,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {PostComponent} from './post/post.component';
 import { ChatboxComponent } from './chatbox/chatbox.component';
 import { MaterialModule } from '@angular/material';
-
+import { MailboxComponent} from './mailbox/mailbox.component';
 
 const routes:Routes=[{path:'',component: UserInboxComponent},
 {path:'circleinbox',component: CircleInboxComponent},
@@ -24,7 +24,8 @@ const routes:Routes=[{path:'',component: UserInboxComponent},
      ChatboxComponent,
      CreateCircle,
      UserInboxComponent,
-     PostComponent
+     PostComponent,
+      MailboxComponent
 
 	],
     
